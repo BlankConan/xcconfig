@@ -1,0 +1,13 @@
+//
+//  common.xcconfig
+//  XXConfig
+//
+//  Created by liugangyi on 2019/6/6.
+//  Copyright © 2019年 liuigangi. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) APP_BASE_URL="$(APP_BASE_URL)" APP_IS_ONLINE="$(APP_IS_ONLINE)"

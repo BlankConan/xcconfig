@@ -1,0 +1,34 @@
+//
+//  BETA.xcconfig
+//  XXConfig
+//
+//  Created by liugangyi on 2019/6/6.
+//  Copyright © 2019年 liuigangi. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "common.xcconfig"
+#include "Pods/Target Support Files/Pods-XXConfig/Pods-XXConfig.beta.xcconfig"
+
+// 请求baseurl
+APP_BASE_URL = @"http:\/\/hahhah/hahha"
+// 测评课件的baseurl
+EVALUATION_BASE_URL=@""
+// app显示的名字
+APP_DISPLAY_NAME=@""
+// beta环境 1_beta
+APP_IS_BETA=0
+
+APP_IS_ONLINE=0
+
+// ----------- 第三方平台用到的key ----------
+// 友盟统计
+UMStatics_AppKey=@"5c553bf0b465f52b2b0014dc"
+
+// bug统计
+Bugly_AppKey=@"1ed769bb88"
+
+// 百度统计
+BaiDuStatics_AppKey=@"2f4daae95e"
